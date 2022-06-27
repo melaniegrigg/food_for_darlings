@@ -1,7 +1,7 @@
 class Api::PostsController < ApplicationController
+    
     def index
-        @posts = Post.all
-        render "index.json.jbuilder"
+        render json: Post.all
     end
 
     def show

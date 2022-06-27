@@ -1,4 +1,4 @@
-json.id @post.id
+{json.id @post.id
 json.title @post.title
 json.body @post.body
-json.image @post.image
+json.image @post.image}
